@@ -1,2 +1,3 @@
 def suma(arg1, arg2):
-	pass
+	return arg1 + arg2
+	
