@@ -1,5 +1,5 @@
 import unittest
-from calculadora import suma
+from calculadora import suma, resta
 
 class TestCalculadora(unittest.TestCase):
 
