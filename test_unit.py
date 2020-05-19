@@ -1,5 +1,5 @@
 import unittest
-from calculadora import suma, resta, multiplicacion
+from calculadora import suma, resta
 
 class TestCalculadora(unittest.TestCase):
 
@@ -37,24 +37,6 @@ class TestCalculadora(unittest.TestCase):
 		resultadoEsperado = -8
 		#act
 		resultado = resta(valor1, valor2)
-		self.assertEqual(resultado, resultadoEsperado)
-
-	def test_multiplicacion(self):
-		#arrange
-		valor1 = 2
-		valor2 = 3
-		resultadoEsperado = 6
-		#act
-		resultado = multiplicacion(valor1, valor2)
-		self.assertEqual(resultado, resultadoEsperado)
-
-	def test_multiplicacion2(self):
-		#arrange
-		valor1 = -5
-		valor2 = 3
-		resultadoEsperado = -15
-		#act
-		resultado = multiplicacion(valor1, valor2)
 		self.assertEqual(resultado, resultadoEsperado)
 
 if __name__ == "__main__":
