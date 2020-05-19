@@ -1,5 +1,5 @@
 import unittest
-from calculadora import suma, resta
+from calculadora import suma, resta, multiplicacion
 
 class TestCalculadora(unittest.TestCase):
 
