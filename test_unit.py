@@ -1,5 +1,5 @@
 import unittest
-from calculadora import suma, resta, multiplicacion
+from calculadora import suma, resta, multiplicacion, division
 
 class TestCalculadora(unittest.TestCase):
 
@@ -70,10 +70,10 @@ class TestCalculadora(unittest.TestCase):
 		#arrange
 		valor1 = 20
 		valor2 = 3
-		resultadoEsperado = 7,333333
+		resultadoEsperado = 6.666667
 		#act
 		resultado = division(valor1, valor2)
-		self.assertEqual(resultado, resultadoEsperado)
+		self.assertEqual("%.6f" % resultado, "%.6f" % resultadoEsperado)
 
 if __name__ == "__main__":
 	unittest.main()
