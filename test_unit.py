@@ -1,5 +1,5 @@
 import unittest
-from calculadora import suma, resta, multiplicacion, division
+from calculadora import suma, resta, multiplicacion, division, raiz_cuadrada
 
 class TestCalculadora(unittest.TestCase):
 
@@ -83,12 +83,12 @@ class TestCalculadora(unittest.TestCase):
 		resultado = raiz_cuadrada(valor1)
 		self.assertEqual(resultado, resultadoEsperado)
 
-	def test_raiz_cuadra2(self):
+	def test_raiz_cuadrada2(self):
 		#arrange
 		valor1 = 20
-		resultadoEsperado = 14,142135
+		resultadoEsperado = 4.4721359
 		#act
-		resultado = raiz_cuadra(valor1)
+		resultado = raiz_cuadrada(valor1)
 		self.assertEqual("%.6f" % resultado, "%.6f" % resultadoEsperado)
 
 if __name__ == "__main__":
