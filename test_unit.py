@@ -75,5 +75,21 @@ class TestCalculadora(unittest.TestCase):
 		resultado = division(valor1, valor2)
 		self.assertEqual("%.6f" % resultado, "%.6f" % resultadoEsperado)
 
+	def test_raiz_cuadrada(self):
+		#arrange
+		valor1 = 81
+		resultadoEsperado = 9
+		#act
+		resultado = raiz_cuadrada(valor1)
+		self.assertEqual(resultado, resultadoEsperado)
+
+	def test_raiz_cuadra2(self):
+		#arrange
+		valor1 = 20
+		resultadoEsperado = 14,142135
+		#act
+		resultado = raiz_cuadra(valor1)
+		self.assertEqual("%.6f" % resultado, "%.6f" % resultadoEsperado)
+
 if __name__ == "__main__":
 	unittest.main()
