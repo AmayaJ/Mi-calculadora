@@ -1,7 +1,7 @@
 <h1>LABORATORIO 2 DE ING. SOFTWARE AVANZADA</h1>
 ===============================================
 
-<h2>Contenido y características<h2>
+<h2>Contenido y características</h2>
 
 <p>Este es el código del segundo laboratorio de la asignatura Ingeniería del Software Avanzada.</p>
 
@@ -14,12 +14,12 @@
 Se utiliza el Framework de pruebas <strong>Unittest</strong></p> 
 
 <h2>Descripción de los ficheros</h2>
-<ol>
+<ul>
 	<li>
 	Fichero test_unit.py: Se escribe una prueba de una de las funcionalidades y se verifica que falla.</li>
 	<li>
 	Librería calculadora.py: Se implementa el código que hace que la prueba pase satisfactoriamente</li>
-</ol>
+</ul>
 
 <h2>Tecnología usadas</h2>
 <p> Se ha utilizado Phyton y el Framework de pruebas Unittest.
